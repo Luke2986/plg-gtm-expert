@@ -82,6 +82,9 @@ plg-gtm-expert/
     ├── metrics-toolkit.md            # Metrics catalog
     └── templates.md                  # Deliverable templates
 ```
+## Why this exists
+
+I built this skill to run growth and GTM decisions on my own product, Forfettino, a live SaaS for Italian flat-rate freelancers. Everything here comes from work I actually do: the discovery structure is the one I use with users, and the frameworks are the ones I apply, not a survey of the literature.
 
 ## License
 
