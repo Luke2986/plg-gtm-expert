@@ -21,7 +21,7 @@ PLG Funnel mapping, PLG Readiness Checklist, Bowling Alley (Wes Bush), Time to V
 GTM Power System (Big Plan + Strategic Foundation + Execution Plan), 16-step GTM process, Status Quo + Why it's Broken, POV (Point of View), Dream State, Trade-offs, ECP (Early Customer Profile), Anti-ICP, B2B persona structure (User/Champion/Buyer), Use Case validation, JTBD, STP + segment scoring, Crossing the Chasm, Bullseye Framework, Competitive Intelligence + win/loss analysis, 4 positioning strategies × market maturity, 5 differentiation angles, Capability→Feature→Benefit triplet, Messaging architecture (Fletch PMM), strategic narrative.
 
 ### Pricing & monetization
-Four failure modes (Feature Shock, Minivation, Hidden Gem, Undead), the WTP talk with 5 question types, WTP segmentation, configuration & bundling (Leaders/Fillers/Killers), five monetization models, pricing strategy selection (maximization/penetration/skimming), WTP-based business case, value communication + MOCA, six behavioral pricing tactics, price integrity, Van Westendorp PSM, Gabor-Granger, conjoint analysis, Value-Based Pricing, plus PLG pricing operations: value metric typology, CAC + Cost-to-Serve, feature placement scenarios, paywall placement and pricing-page optimization.
+Four failure modes (Feature Shock, Minivation, Hidden Gem, Undead), the WTP talk with 5 question types, WTP segmentation, configuration & bundling (Leaders/Fillers/Killers), five monetization models, pricing strategy selection (maximization/penetration/skimming), WTP-based business case, value communication + MOCA, six behavioral pricing tactics, price integrity, Van Westendorp PSM, Gabor-Granger, conjoint analysis, Value-Based Pricing, plus PLG pricing operations: value metric typology, CAC + Cost-to-Serve, feature placement scenarios, paywall placement and pricing-page optimization. A packaging addendum covers the 6 packaging archetypes (all-inclusive, good-better-best, use case/persona, modular, build-your-own, consumption), pricing as friction in the growth loop, the customer-perspective mapping to value metric/packaging/price/frequency, feature-placement risks ("product first, plans second"), and how to read the Van Westendorp acceptable range.
 
 ### Sales enablement
 5 sales enablement pillars, external vs internal asset taxonomy, Sales Deck 8-section structure, One-Pager design, Battlecard 5-block structure, sales enablement metrics — for B2B and Product-Led Sales motions.
@@ -71,7 +71,7 @@ It responds in the language you write in.
 
 ```
 plg-gtm-expert/
-├── SKILL.md                          # Main skill prompt
+├── SKILL.md                          # Main skill prompt (incl. pricing & packaging addendum)
 └── references/
     ├── plg-framework.md              # PLG strategy reference
     ├── gtm-framework.md              # GTM strategy reference
