@@ -74,7 +74,7 @@ plg-gtm-expert/
 ├── SKILL.md                          # Main skill prompt (incl. pricing & packaging addendum)
 └── references/
     ├── plg-framework.md              # PLG strategy reference
-    ├── gtm-framework.md              # GTM strategy reference
+    ├── gtm-framework.md              # GTM strategy reference (incl. Product Thesis & upstream diagnosis)
     ├── digital-channels.md           # Acquisition channels & content
     ├── pricing-framework.md          # Pricing & monetization framework
     ├── pricing-toolkit.md            # PLG pricing operations
