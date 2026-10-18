@@ -2,7 +2,7 @@
 
 A custom skill for Claude that turns it into a senior Product-Led Growth and Go-To-Market strategist.
 
-Structured discovery, situational framework selection, and actionable deliverables tied to measurable outcomes. Works for any product, market, and team size.
+Structured discovery, situational framework selection, and actionable deliverables tied to measurable outcomes. Calibrated for two contexts: micro-SaaS and resource-constrained teams, and funded startups in traction that invest in acquisition and plan to expand into new segments or countries.
 
 ## What this skill does
 
@@ -29,6 +29,9 @@ Four failure modes (Feature Shock, Minivation, Hidden Gem, Undead), the WTP talk
 ### Digital channels & content
 See-Think-Do-Care (Kaushik), SEO + Topic Cluster (Fishkin), AEO — Answer Engine Optimization (LLM discovery), Content Pyramid (Vaynerchuk) + They Ask You Answer (Sheridan), Permission Marketing (Godin) + Email/Newsletter/DEM, Creator & Influencer marketing + Cialdini levers, Full-Funnel Advertising, Brand vs Activation 60/40 (Binet & Field).
 
+### Brand-led growth & R.E.A.C.H.
+The diagnostic layer for one question: is the company buying growth or building it? Includes the demand pool diagnosis (harvesting vs refilling demand), Byron Sharp's mental and physical availability, Category Entry Points mapping, distinctive brand assets (Romaniuk), how Sharp and Binet & Field fit together, and the R.E.A.C.H. framework (Relevance, Efficiency, Accessibility, Connection, Hype) by Francesco Agostinis (Loop), adapted from e-commerce to SaaS. The diagnostic turns "if you switched off the ads, would anyone remember you?" into verifiable tests: share of search, source mix of new customers, unpaid return, incrementality (geo holdout), AI visibility. Calibrated by stage, including new market entry.
+
 ### Metrics
 AARRR funnel analysis, North Star + input metrics, Cohort analysis, Unit economics (CAC, LTV, payback), PLG-specific metrics catalog for acquisition, activation, conversion, retention, expansion, and churn.
 
@@ -44,7 +47,8 @@ The `references/` folder contains detailed documentation for each domain:
 | `pricing-framework.md` | Full pricing & monetization framework: four failure modes, the WTP talk + segmentation, bundling, monetization models, pricing strategy selection, value communication + MOCA, behavioral tactics, price integrity, and the statistical WTP research layer (Van Westendorp, Gabor-Granger, conjoint, value-based) |
 | `pricing-toolkit.md` | PLG pricing operations that complement the framework: value metric typology, CAC + Cost-to-Serve, feature-placement scenarios, paywall & pricing-page tactics |
 | `sales-enablement.md` | 5 enablement pillars, asset taxonomy, sales deck, one-pager, battlecard, enablement metrics |
-| `metrics-toolkit.md` | Complete metrics catalog organized by funnel stage |
+| `brand-growth-reach.md` | Brand-led growth: demand pool, mental and physical availability, CEPs, distinctive assets, R.E.A.C.H. adapted to SaaS, 5-step diagnostic with verifiable tests, calibration by stage |
+| `metrics-toolkit.md` | Complete metrics catalog organized by funnel stage, incl. brand & demand-health metrics |
 | `templates.md` | Ready-to-use templates: discovery summary, GTM Power System, use case validation, positioning, messaging architecture, tactics & experiments, segment scoring, PLG readiness assessment |
 
 ## How to use it
@@ -55,7 +59,7 @@ This is a [Claude custom skill](https://docs.claude.com). To use it:
 2. Add the skill to your Claude configuration
 3. Start a conversation about any PLG or GTM topic
 
-The skill activates when you ask about growth strategy, GTM planning, PLG, acquisition funnels, retention, monetization, pricing, packaging, competitive positioning, launch planning, channel strategy, SEO/AEO, content and email marketing, sales enablement, metrics, or any related topic.
+The skill activates when you ask about growth strategy, brand vs performance, paid dependency, new market entry, GTM planning, PLG, acquisition funnels, retention, monetization, pricing, packaging, competitive positioning, launch planning, channel strategy, SEO/AEO, content and email marketing, sales enablement, metrics, or any related topic.
 
 It responds in the language you write in.
 
@@ -79,6 +83,7 @@ plg-gtm-expert/
     ├── pricing-framework.md          # Pricing & monetization framework
     ├── pricing-toolkit.md            # PLG pricing operations
     ├── sales-enablement.md           # B2B / PLS sales enablement
+    ├── brand-growth-reach.md         # Brand-led growth & R.E.A.C.H. diagnostic
     ├── metrics-toolkit.md            # Metrics catalog
     └── templates.md                  # Deliverable templates
 ```
